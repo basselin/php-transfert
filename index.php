@@ -21,7 +21,6 @@ $filekey = 'userfile';
 	
 	</style>
 	<script>
-	
 	window.onload = function() {
 		var formFile = document.getElementById('form-file');
 		var inputFile = document.getElementsByName('<?php echo $filekey ?>')[0];
@@ -32,7 +31,6 @@ $filekey = 'userfile';
 			}
 		};
 	};
-	
 	</script>
 </head>
 <body>
